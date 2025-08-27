@@ -24,6 +24,7 @@ while run:
     while menu:
         draw()
         print("1, NEW GAME")
+        # We'll Work on loading savefile later
         print("2, LOAD GAME")
         print("3, RULES")
         print("4, QUIT GAME")
