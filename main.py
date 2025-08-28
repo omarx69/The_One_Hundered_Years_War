@@ -1,4 +1,6 @@
 import sys, os
+from mechs import hero, traveling, shopping
+from mechs.puzzles import cipher, riddle
 
 pltform = sys.platform
 
@@ -21,6 +23,8 @@ def draw():
     print("xX--------------------xX")
 
 while run:
+    while play:
+        pass
     while menu:
         draw()
         print("1, NEW GAME")
@@ -39,7 +43,8 @@ while run:
             choice = input("# ")
 
         if choice == "1":
-            pass
+            menu=False
+            play=True
         elif choice == "2":
             pass
         elif choice == "3":
